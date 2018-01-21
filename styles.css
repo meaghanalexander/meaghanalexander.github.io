@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Montserrat|Slabo+27px|Work+Sans');
+
+h1,h2,h3 {
+    font-family: 'Work+Sans', sans-serif;
+    color: #ffffff;
+}
+
+p, li {
+ font-family: 'Slabo 27px', serif;
+ color: #ffffff;
+}
+
+body {
+    background: url('gradients-simple-background-light-colorful-abstract.jpg') no-repeat;
+    center center fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #595959;
+    text-align: center;
+    padding: 15px 30px; 
+}
+
+.main-content {
+    background-color: #767977;
+    padding: 10px 0;
+    border-top: 6px solid #ffffff;
+}
+
+header img {
+    width: 50%; 
+    border-radius: 15px;
+}
+
+.main-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content ul li {
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-content p {
+    margin: 10px 40px;
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    grid-gap: 3%;
+}
+
+.project {
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(127, 184, 197);
+    border-radius: 15px;
+}
+
+.project img {
+    max-width: 100%;
+}
